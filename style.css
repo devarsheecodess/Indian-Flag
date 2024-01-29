@@ -14,21 +14,21 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 50px;
     flex-direction: column;
 }
 
 .flag{
     margin: 30px;
     height: 300px;
-    width: 680px;
+    width: 50%;
     box-shadow: 0px 0px 13px 0px #000000;
     animation: glow 2s alternate infinite;
 }
 
 @keyframes glow {
     0%{
-        box-shadow: 0px 0px 0px 0px #000000; 
+        box-shadow: 0px 0px 0px 0px #000000;
     }
     100%{
         box-shadow: 0px 0px 13px 0px #000000;
@@ -126,3 +126,4 @@ body{
     font-size:40px;
     color: #060553;
 }
+
